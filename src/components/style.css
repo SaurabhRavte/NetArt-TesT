@@ -1,0 +1,84 @@
+/* DetailsCard */
+.cardImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-cont h3 {
+  font-weight: 800;
+}
+
+.card-cont li {
+  font-weight: 500;
+}
+
+.card-cont p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.card-cont p b {
+  font-weight: 800;
+}
+
+/* Bottom Section */
+.BottomCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #c92b2f;
+}
+
+.BottomCont p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.machineImage {
+  width: 80%;
+}
+
+.center {
+  text-align: center;
+}
+
+.center p {
+  font-size: 16.5px;
+}
+
+.center span {
+  color: #c92b2f;
+  font-size: 20px;
+}
+
+/* Footer */
+
+.footerCont {
+  width: 100%;
+  height: 160px;
+  background-color: #ec3237;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.icon {
+  width: 34px;
+  margin-right: 10px;
+}
+
+.footerCont a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.call,
+.facebook,
+.web {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
